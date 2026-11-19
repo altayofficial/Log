@@ -1,5 +1,5 @@
 {
-    "name": "pocketmine/log",
+    "name": "altayofficial/log",
     "description": "Logging components used by PocketMine-MP and related projects",
     "type": "library",
     "license": "LGPL-3.0",
@@ -12,6 +12,9 @@
     },
     "conflict": {
         "pocketmine/spl": "<0.4"
+    },
+    "replace": {
+        "pocketmine/log": "self.version"
     },
     "autoload": {
         "classmap": ["./src"]
